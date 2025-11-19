@@ -76,12 +76,6 @@ Aucune installation compliquée.
 
 ---
 
-## 📹 Vidéo de démonstration (1 minute)
-*(Tu ajouteras le lien YouTube une fois filmé)*  
-👉 **[Lien vidéo ici]**
-
----
-
 ## 👩‍🎨 Crédits
 - **Développement & design** : Oriane Claudelle Mogue Foaleng  
 - **Images / assets** :  
