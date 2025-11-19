@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f3f6fb;
+    color: #222;
+}
+
+header {
+    text-align: center;
+    padding: 40px 0;
+    background: #2e7d32;
+    color: white;
+}
+
+.subtitle {
+    opacity: 0.9;
+    margin-top: -10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    background: #ffffff;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid #ddd;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #2e7d32;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.code {
+    background: #1e1e1e;
+    color: #76ff03;
+    padding: 15px;
+    border-radius: 5px;
+    white-space: pre-wrap;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+th {
+    background: #2e7d32;
+    color: white;
+}
+
+.tip {
+    background: #e8f5e9;
+    padding: 10px;
+    border-left: 4px solid #2e7d32;
+    margin-top: 10px;
+}
+
+/* QUIZ */
+#quiz-container {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    border: 2px solid #2e7d32;
+}
+
+button.answer-btn {
+    padding: 12px;
+    width: 100%;
+    margin: 8px 0;
+    background: #e3f2fd;
+    border: 2px solid #2e7d32;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.25s;
+}
+
+button.answer-btn:hover {
+    background: #bbdefb;
+}
+
+button.selected {
+    background: #2e7d32 !important;
+    color: white !important;
+}
+
+button.correct {
+    background: #4caf50 !important;
+    color: white !important;
+}
+
+button.wrong {
+    background: #e53935 !important;
+    color: white !important;
+}
+
+#nextBtn {
+    display: none;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}

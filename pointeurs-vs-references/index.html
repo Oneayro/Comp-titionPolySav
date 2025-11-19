@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pointeurs vs Références – Guide Complet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Pointeurs vs Références en C++</h1>
+    <p class="subtitle">Une explication claire, illustrée et interactive.</p>
+</header>
+
+<nav>
+    <a href="#pointeurs">Pointeurs</a>
+    <a href="#references">Références</a>
+    <a href="#comparaison">Comparaison</a>
+    <a href="#quiz">Quiz</a>
+</nav>
+
+<main>
+
+<section id="pointeurs">
+    <h2>Pointeurs</h2>
+
+    <p>
+        En C++, un <strong>pointeur</strong> est une variable contenant <em>l’adresse mémoire</em> d’une autre variable.
+        Il offre un contrôle très bas niveau, permettant de manipuler directement la mémoire.
+    </p>
+
+    <p>
+        Les pointeurs doivent être <strong>déréférencés</strong> avec <code>*</code> pour accéder à la valeur pointée,
+        et utilisent <code>&</code> pour obtenir l’adresse d’une variable.
+    </p>
+
+<pre class="code">
+int i = 5;
+
+// p stocke l'adresse de i
+int* p = &i;
+
+// déréférencement
+*p = 10;     // i devient 10
+</pre>
+
+    <ul>
+        <li>peut être nullptr,</li>
+        <li>peut changer de cible,</li>
+        <li>autorise l'arithmétique (+1, -1…),</li>
+        <li>permet d’implémenter des structures comme les listes chaînées et arbres.</li>
+    </ul>
+
+</section>
+
+<section id="references">
+    <h2>Références</h2>
+
+    <p>
+        Une <strong>référence</strong> est un <em>alias</em> vers une variable existante. Contrairement au pointeur,
+        elle ne possède pas sa propre adresse et doit être initialisée immédiatement.
+    </p>
+
+    <p>
+        Une référence est plus sûre : elle ne peut jamais être null, et ne peut jamais changer
+        d’objet référencé. Le compilateur gère automatiquement l’indirection.
+    </p>
+
+<pre class="code">
+int i = 5;
+
+// alias de i
+int& r = i;
+
+r = 10;  // i devient 10
+</pre>
+
+    <ul>
+        <li>initialisation obligatoire,</li>
+        <li>jamais null,</li>
+        <li>pas de réassignation,</li>
+        <li>syntaxe simple et lisible.</li>
+    </ul>
+
+</section>
+
+<section id="comparaison">
+    <h2>Comparaison complète</h2>
+
+    <p>Voici une comparaison claire des différences :</p>
+
+    <table>
+        <tr><th>Aspect</th><th>Référence</th><th>Pointeur</th></tr>
+
+        <tr><td>Définition</td><td>Alias d'une variable</td><td>Contient une adresse mémoire</td></tr>
+        <tr><td>Initialisation</td><td>Obligatoire</td><td>Optionnelle</td></tr>
+        <tr><td>Peut être null</td><td> Non</td><td>Oui</td></tr>
+        <tr><td>Réassignable</td><td>Non</td><td>Oui</td></tr>
+        <tr><td>Indirection</td><td>Une seule</td><td>Multiple (**p, ***p)</td></tr>
+        <tr><td>Arithmétique</td><td>Non</td><td>Oui</td></tr>
+        <tr><td>Adresse propre</td><td>Non</td><td>Oui</td></tr>
+        <tr><td>Usage</td><td>Interfaces simples</td><td>Structures dynamiques</td></tr>
+    </table>
+
+    <p class="tip">
+        Règle générale : <strong>Références pour la simplicité, pointeurs quand vous en avez vraiment besoin.</strong>
+    </p>
+</section>
+
+<section id="quiz">
+    <h2>Quiz interactif</h2>
+
+    <div id="quiz-container">
+        <p id="question"></p>
+        <div id="answers"></div>
+        <button id="nextBtn" onclick="nextStep()">Question suivante</button>
+    </div>
+
+    <p id="score" class="hidden"></p>
+</section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
