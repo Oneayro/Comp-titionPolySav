@@ -83,6 +83,34 @@ SmartSort garde trace des **20 dernières prédictions** pour chaque utilisateur
 
 # 🚀 **Comment exécuter le projet ?**
 
+# 🔑 Ajouter sa clé API OpenAI
+
+### 2.1 Aller sur :  
+https://platform.openai.com/settings/organization/api-keys  
+
+Créer une clé :
+
+```
+sk-xxxxxxxxxxxxxxxx
+```
+
+### 2.2 Dans le dossier backend, créer un fichier `.env`
+
+```
+backend/.env
+```
+
+Mettre :
+
+```
+OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxx
+```
+
+⚠️ Ne jamais partager cette clé.  
+⚠️ Ne jamais la push sur GitHub.
+
+---
+
 ## 1️⃣ **Backend — FastAPI**
 Dans un terminal :
 
