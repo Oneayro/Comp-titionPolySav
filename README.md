@@ -2,6 +2,7 @@
 
 Ce dépôt regroupe trois projets réalisés dans le cadre de la compétition InfoLog / PolySav.
 
+
 📁 Contenu du dépôt
 1. Avoid-the-CS-Nightmares
 
@@ -14,45 +15,32 @@ Ressource limitée (stamina)
 
 Deux types d'ennemis (normaux + zigzag)
 
-Deux boss avec projectiles, patterns et barres de vie
+Voir le README du projet : Avoid-the-CS-Nightmares/README.md
 
-Système de pause, restart, meilleur score
-
-Debug, optimisation et gameplay complet
-
-👉 Voir le README du projet :
-Avoid-the-CS-Nightmares/README.md
 
 2. pointeurs-vs-references
 
 📘 Démo interactive expliquant la différence entre pointeurs et références en C++.
 Projet pédagogique, visuel et concis.
 
-👉 Voir le README du projet :
-pointeurs-vs-references/README.md
+Voir le README du projet :  pointeurs-vs-references/README.md
+
 
 3. SmartSort – L’application intelligente de tri automatisé
 
 ♻️ Prototype complet IA + Back-End + Front-End
 Projet développé dans le cadre du défi EcoSmart, visant à aider les utilisateurs à trier leurs déchets automatiquement grâce à une IA.
 
-✨ Fonctionnalités
+Fonctionnalités :
 
-Upload d’image ou saisie textuelle
+-  Upload d’image ou saisie textuelle
 
-Classifie automatiquement : plastique, papier, verre, métal, organique, autre
+-  Classifie automatiquement : plastique, papier, verre, métal, organique, autre
 
-Historique des prédictions enregistré en base de données
+-  Historique des prédictions enregistré en base de données
 
-Interface web claire et mobile-friendly
+Voir le README du projet : DefisPolyAI/README.md
 
-API REST pour communiquer avec l’IA
-
-Modèle IA simple (vision ou NLP selon le choix de l’équipe)
-
-
-👉 Voir le README du projet :
-SmartSort/README.md
 
 🚀 Installation / Exécution
 
@@ -61,6 +49,5 @@ Aucune installation complexe.
 Clone simplement le dépôt :
 
 git clone https://github.com/Oneayro/Comp-titionPolySav.git
-
 
 Puis consulte les README individuels dans chaque dossier pour exécuter les projets.
