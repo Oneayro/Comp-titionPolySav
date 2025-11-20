@@ -1,25 +1,66 @@
-**COMPÉTITIONPOLYSAV**
+🏆 COMPÉTITION POLYSAV — Dépôt des projets
 
-Ce dépôt regroupe deux mini-projets réalisés dans le cadre de la compétition InfoLog.
+Ce dépôt regroupe trois projets réalisés dans le cadre de la compétition InfoLog / PolySav.
+
+📁 Contenu du dépôt
+1. Avoid-the-CS-Nightmares
+
+🎮 Mini-jeu web en JavaScript
+Un jeu arcade basé sur la survie : esquive les « mauvais codes », collecte les bonus, affronte deux boss différents, gère ta stamina et va le plus loin possible.
+
+Interface simple et responsive
+
+Ressource limitée (stamina)
+
+Deux types d'ennemis (normaux + zigzag)
+
+Deux boss avec projectiles, patterns et barres de vie
+
+Système de pause, restart, meilleur score
+
+Debug, optimisation et gameplay complet
+
+👉 Voir le README du projet :
+Avoid-the-CS-Nightmares/README.md
+
+2. pointeurs-vs-references
+
+📘 Démo interactive expliquant la différence entre pointeurs et références en C++.
+Projet pédagogique, visuel et concis.
+
+👉 Voir le README du projet :
+pointeurs-vs-references/README.md
+
+3. SmartSort – L’application intelligente de tri automatisé
+
+♻️ Prototype complet IA + Back-End + Front-End
+Projet développé dans le cadre du défi EcoSmart, visant à aider les utilisateurs à trier leurs déchets automatiquement grâce à une IA.
+
+✨ Fonctionnalités
+
+Upload d’image ou saisie textuelle
+
+Classifie automatiquement : plastique, papier, verre, métal, organique, autre
+
+Historique des prédictions enregistré en base de données
+
+Interface web claire et mobile-friendly
+
+API REST pour communiquer avec l’IA
+
+Modèle IA simple (vision ou NLP selon le choix de l’équipe)
 
 
-**Contenu du dépôt**
+👉 Voir le README du projet :
+SmartSort/README.md
 
-📁 1. Avoid-the-CS-Nightmares
+🚀 Installation / Exécution
 
-Mini-jeu web basé sur JavaScript.
+Aucune installation complexe.
 
-Voir le README du projet : Avoid-the-CS-Nightmares/README.md
+Clone simplement le dépôt :
 
-📁 2. pointeurs-vs-references
-
-Démonstration interactive expliquant la différence entre les pointeurs et les références.
-
-Voir le README du projet : pointeurs-vs-references/README.md
+git clone https://github.com/Oneayro/Comp-titionPolySav.git
 
 
-**🚀 Installation / Exécution**
-
-Aucune installation compliquée.
-Clone le repo : git clone https://github.com/Oneayro/Comp-titionPolySav.git
-
+Puis consulte les README individuels dans chaque dossier pour exécuter les projets.
